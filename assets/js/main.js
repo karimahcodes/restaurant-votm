@@ -174,6 +174,20 @@
       heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
   });
 
+
+  // duplicate slider indicators for Events section
+  let eventsCarouselIndicators = select("#events-carousel-indicators")
+  let eventsCarouselItems = select('#eventsCarousel .events-carousel-item', true)
+
+  eventsCarouselItems.forEach((item, index) => {
+    (index === 0) ?
+    eventsCarouselIndicators.innerHTML += "<li data-bs-target='#eventsCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
+      eventsCarouselIndicators.innerHTML += "<li data-bs-target='#eventsCarousel' data-bs-slide-to='" + index + "'></li>"
+  });
+
+
+
+
   /**
    * Menu isotope and filter
    */
