@@ -58,6 +58,8 @@
     color: #fff;
   }
   
+
+  // remove .events-carousel-item and place on a new stylesheet
   .carousel-inner {
     .carousel-item, .events-carousel-item {
       -webkit-transition-property: opacity;
