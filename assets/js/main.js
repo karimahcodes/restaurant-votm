@@ -175,15 +175,17 @@
   });
 
 
-  // duplicate slider indicators for Events section
-  let eventsCarouselIndicators = select("#events-carousel-indicators")
-  let eventsCarouselItems = select('#eventsCarousel .events-carousel-item', true)
+  // // duplicate slider indicators for Events section
+  // //this logic no longer needed because we're not pulling from a data source. just need indicators that correspond to hardcoded slides and control the set-timeout counter
 
-  eventsCarouselItems.forEach((item, index) => {
-    (index === 0) ?
-    eventsCarouselIndicators.innerHTML += "<li data-bs-target='#eventsCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
-      eventsCarouselIndicators.innerHTML += "<li data-bs-target='#eventsCarousel' data-bs-slide-to='" + index + "'></li>"
-  });
+  // let eventsCarouselIndicators = select("#events-carousel-indicators")
+  // let eventsCarouselItems = select('#eventsCarousel .events-carousel-item', true)
+
+  // eventsCarouselItems.forEach((item, index) => {
+  //   (index === 0) ?
+  //   eventsCarouselIndicators.innerHTML += "<li data-bs-target='#eventsCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
+  //     eventsCarouselIndicators.innerHTML += "<li data-bs-target='#eventsCarousel' data-bs-slide-to='" + index + "'></li>"
+  // });
 
 
 
