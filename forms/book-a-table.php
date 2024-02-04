@@ -21,7 +21,7 @@
   $book_a_table->to = $receiving_email_address;
   $book_a_table->from_name = $_POST['name'];
   $book_a_table->from_email = $_POST['email'];
-  $book_a_table->subject = "New table booking request from the website";
+  $book_a_table->subject = "New event booking request from the website";
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
