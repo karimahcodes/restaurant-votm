@@ -54,8 +54,6 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <div class="logo me-auto">
-        <!-- <h1><a href="index.html">Vybez On The Main</a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
         <a href="index.html"><img src="assets/img/vybez_white.png"
             alt="white logo has two palm trees on either side of the words Vybez on the Main" class="img-fluid"></a>
       </div>
@@ -63,12 +61,12 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
           <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
           <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
           <li><a class="nav-link scrollto" href="#events">Events</a></li>
           <li><a class="nav-link scrollto" href="#chefs">Team</a></li>
           <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Reviews</a></li>
           <li class="dropdown"><a href="#"><span>Delivery</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="https://www.doordash.com/store/vybez-on-the-main-hempstead-24773903/" target="_blank">Door
@@ -78,17 +76,6 @@
               </li>
               <li><a href="https://www.ubereats.com/store/vybez-on-the-main/cQJ-Mg4yTy-g3v_OwpI8Ow"
                   target="_blank">UberEats</a></li>
-
-              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li> -->
-              <!-- <li><a href="#">Drop Down 4</a></li> -->
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -111,7 +98,7 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);" alt="">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown"><span>Vybez</span> On The Main</h2>
@@ -123,7 +110,6 @@
                 <div>
                   <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
                   <a href="#specials" class="btn-menu animate__animated animate__fadeInUp scrollto">Lunch Specials</a>
-                  <!-- <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Book a Table</a> -->
                 </div>
               </div>
             </div>
@@ -1706,15 +1692,21 @@
             of message), and general inquiries may be submitted here.</p>
         </div>
       </div>
-      <img src="./assets/img/awning-daytime.png"
-        alt="Photo of restaurant storefront with a white awning that displays red yellow and green Vybez On The Main logo"
-        style="width: 100%; height: 25vw; object-fit: cover;" class="d-flex justify-content-center -translate-y-12">
+      <div style="width: 100%; height: 40vh;">
+        <img src="./assets/img/awning-daytime2.png"
+          alt="Photo of restaurant storefront with a white awning that displays red yellow and green Vybez On The Main logo"
+          class="d-flex justify-content-center awning-img" 
+        />
+      </div>
+
+      <!-- map container -->
       <div class="map">
         <iframe style="border:0; width: 100%; height: 350px;"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.4903883940283!2d-73.6264571234824!3d40.70721993790752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c27d1c21d75e27%3A0x761d79dca477ae2f!2s24%20Main%20St%2C%20Hempstead%2C%20NY%2011550!5e0!3m2!1sen!2sus!4v1705024170311!5m2!1sen!2sus"
           frameborder="0" allowfullscreen></iframe>
       </div>
-
+      
+      <!-- contact form container -->
       <div class="container mt-5">
 
         <div class="info-wrap">
@@ -1769,6 +1761,7 @@
         </form>
 
       </div>
+
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
