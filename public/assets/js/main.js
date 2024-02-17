@@ -1,10 +1,4 @@
-/**
-* Template Name: Delicious
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+ 
 (function() {
   "use strict";
 
@@ -173,21 +167,6 @@
     heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
       heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
   });
-
-
-  // // duplicate slider indicators for Events section
-  // //this logic no longer needed because we're not pulling from a data source. just need indicators that correspond to hardcoded slides and control the set-timeout counter
-
-  // let eventsCarouselIndicators = select("#events-carousel-indicators")
-  // let eventsCarouselItems = select('#eventsCarousel .events-carousel-item', true)
-
-  // eventsCarouselItems.forEach((item, index) => {
-  //   (index === 0) ?
-  //   eventsCarouselIndicators.innerHTML += "<li data-bs-target='#eventsCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
-  //     eventsCarouselIndicators.innerHTML += "<li data-bs-target='#eventsCarousel' data-bs-slide-to='" + index + "'></li>"
-  // });
-
-
 
 
   /**
